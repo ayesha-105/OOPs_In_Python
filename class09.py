@@ -13,7 +13,7 @@ class Car:
 class Toyota(Car):
     def __init__(self, brand, type):
         self.brand = brand
-        super().__init__(type)
+        super().__init__(type) 
 
 car1= Toyota("Innova", "electric")
 print(car1.brand)
